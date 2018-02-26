@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>top.biandeshen</groupId>
+    <artifactId>sandstorm</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>sandstorm-common</module>
+        <module>sandstorm-interface</module>
+    </modules>
+
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <!-- 主要依赖库的版本定义 -->
+    <properties>
+        <!-- 定义资源文件的编码格式-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <jetty-plugin.version>9.3.0.M2</jetty-plugin.version>
+        <!--test-->
+        <junit.version>4.12</junit.version>
+        <powermock.version>1.6.1</powermock.version>
+        <mockito.version>1.10.8</mockito.version>
+        <assertj.version>3.8.0</assertj.version>
+        <selenium.version>2.42.2</selenium.version>
+        <!-- 依赖库版本定义-->
+        <!--spring-->
+        <sandstorm.version>1.0.0</sandstorm.version>
+        <spring.baseline.version>4.3.10.RELEASE</spring.baseline.version>
+        <aspectjweaver.version>1.8.10</aspectjweaver.version>
+        <fastjson.version>1.2.36</fastjson.version>
+        <jackson.version>2.9.1</jackson.version>
+        <dozer.version>5.5.1</dozer.version>
+        <springboot.version>1.5.9.RELEASE</springboot.version>
+
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <fastjson.version>1.2.20</fastjson.version>
+        <log4j2.version>2.7</log4j2.version>
+        <slf4j.version>1.7.21</slf4j.version>
+        <poi.version>3.15</poi.version>
+        <!--commons and guava-->
+        <commons-lang3.version>3.6</commons-lang3.version>
+        <commons-pool.version>2.4.2</commons-pool.version>
+        <commons-collections.version>4.1</commons-collections.version>
+        <commons-io.version>2.5</commons-io.version>
+        <commons-codec.version>1.10</commons-codec.version>
+        <commons-beanutils.version>1.9.3</commons-beanutils.version>
+        <commons-fileupload.version>1.3.2</commons-fileupload.version>
+        <commons-io.version>2.5</commons-io.version>
+        <guava.version>20.0</guava.version>
+        <!--web container && template like jsp or freemarker-->
+        <jetty.version>8.1.16.v20140903</jetty.version>
+        <servlet.version>4.0.0-b01</servlet.version>
+        <servlet-api.version>3.1.0</servlet-api.version>
+        <jsp-api.version>2.3.1</jsp-api.version>
+        <jstl.version>1.2</jstl.version>
+        <freemarker.version>2.3.23</freemarker.version>
+        <sitemesh.version>2.4.2</sitemesh.version>
+        <!--security-->
+        <shiro.version>1.3.2</shiro.version>
+        <!-- 代码生成器 -->
+        <!--mybatis and db-->
+        <springboot-mybatis.version>1.3.1</springboot-mybatis.version>
+        <mybatis.version>3.4.2</mybatis.version>
+        <mybatis-spring.version>1.3.1</mybatis-spring.version>
+        <mybatis.mapper.version>3.3.9</mybatis.mapper.version>
+        <mybatis.pagehelper.version>5.0.4</mybatis.pagehelper.version>
+        <mybatis-generator.version>1.3.5</mybatis-generator.version>
+        <HikariCP.version>2.6.0</HikariCP.version>
+        <mysql-driver.version>5.1.6</mysql-driver.version>
+        <h2.version>1.4.180</h2.version>
+        <hibernate.version>4.3.7.Final</hibernate.version>
+        <hibernate.annotations.version>4.0.4.Final</hibernate.annotations.version>
+        <!-- 通用mapper插件 -->
+        <springboot-tk-mybatis.version>1.1.4</springboot-tk-mybatis.version>
+        <!-- swagger Api文档 -->
+        <swagger2.version>2.7.0</swagger2.version>
+        <!--logger-->
+        <slf4j-api.version>1.7.25</slf4j-api.version>
+        <logback.version>1.2.3</logback.version>
+        <!--cache -->
+        <ehcache.version>2.5.0</ehcache.version>
+        <spymemcached.version>2.11.5</spymemcached.version>
+        <!--search-->
+        <lucene.version>6.0.1</lucene.version>
+        <!--rpc-->
+        <dubbo.version>2.5.3</dubbo.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
+        <zkclient.version>0.1</zkclient.version>
+        <javax.ws.rs.vertion>2.1</javax.ws.rs.vertion>
+        <cxf.version>3.1.12</cxf.version>
+        <!--no sql-->
+        <jedis.version>2.9.0</jedis.version>
+        <spring-data-redis.version>1.8.7.RELEASE</spring-data-redis.version>
+        <nosqlunit.version>0.8.0</nosqlunit.version>
+
+        <activemq.version>5.7.0</activemq.version>
+        <rabbit.version>1.1.3.RELEASE</rabbit.version>
+        <javax.mail.version>1.4.7</javax.mail.version>
+    </properties>
+
+    <!-- 若子项目为一个 springboot项目，父模块添加此代码
+         与本应在子模块中的parent共用在父pom中
+     -->
+    <!--dependencyManagement里只是声明依赖，并不实现引入，
+    子模块需要声明依赖，但不写version和scope-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>1.5.9.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!--这些依赖自动被子模块继承-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.3.13.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+</project>

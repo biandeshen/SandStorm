@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sandstorm-interface:war">
+    <output-path>$PROJECT_DIR$/sandstorm-interface/target</output-path>
+    <root id="archive" name="sandstorm-interface-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sandstorm-interface:war exploded" />
+    </root>
+  </artifact>
+</component>

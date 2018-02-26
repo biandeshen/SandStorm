@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sandstorm-common" />
+        <module name="sandstorm-interface" />
+        <module name="sendstorm-core" />
+        <module name="springbootdemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SandStorm" target="1.8" />
+      <module name="sandstorm-common" target="1.8" />
+      <module name="sandstorm-interface" target="1.8" />
+      <module name="SendStorm" target="1.6" />
+      <module name="sendstorm-core" target="1.5" />
+      <module name="springbootdemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
