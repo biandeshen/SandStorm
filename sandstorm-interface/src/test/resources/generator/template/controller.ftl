@@ -1,4 +1,4 @@
-package ${basePackage}.web;
+package ${basePackage}.api;
 import ${basePackage}.core.Result;
 import ${basePackage}.core.ResultGenerator;
 import ${basePackage}.entity.${modelNameUpperCamel};
