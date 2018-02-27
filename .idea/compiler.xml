@@ -14,6 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SandStorm" target="1.8" />
+      <module name="sandstorm" target="1.8" />
       <module name="sandstorm-common" target="1.8" />
       <module name="sandstorm-interface" target="1.8" />
       <module name="SendStorm" target="1.6" />

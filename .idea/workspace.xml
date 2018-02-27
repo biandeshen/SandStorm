@@ -1,51 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9011e376-2467-4927-8463-08625896854e" name="Default" comment="上传到GitHub 2018-2-27 09:45:01 添加许可证等文件">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/CityAPI.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/UserAPI.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/entity/City.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/entity/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/CityMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/UserMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/CityService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/resources/mapper/CityMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/resources/mapper/UserMapper.xml" />
+    <list default="true" id="9011e376-2467-4927-8463-08625896854e" name="Default" comment="修改若干bug 2018-2-27 11:43:27 修改了在生成过程中的bug，解决了大小写不一致的问题">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-common/pom.xml" afterPath="$PROJECT_DIR$/sandstorm-common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-common/sandstorm-common.iml" afterPath="$PROJECT_DIR$/sandstorm-common/sandstorm-common.iml" />
+      <change beforePath="$PROJECT_DIR$/SandStorm.iml" afterPath="$PROJECT_DIR$/sandstorm.iml" />
       <change beforePath="$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/generator/CodeGenerator.java" afterPath="$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/generator/CodeGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/sandstorm-interface.iml" afterPath="$PROJECT_DIR$/sandstorm-interface/sandstorm-interface.iml" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/SandStormInterfaceApplication.java" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/SandStormInterfaceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/base/AbstractService.java" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/base/AbstractService.java" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/base/Mapper.java" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/base/Mapper.java" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/CityAPI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/UserAPI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/entity/City.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/entity/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/CityMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/UserMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/CityService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/resources/application.properties" />
       <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/resources/generator.properties" afterPath="$PROJECT_DIR$/sandstorm-interface/src/main/resources/generator.properties" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/test/java/top/biandeshen/sandstorm/generator/CodeGeneratorClient.java" afterPath="$PROJECT_DIR$/sandstorm-interface/src/test/java/top/biandeshen/sandstorm/generator/CodeGeneratorClient.java" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/resources/mapper/CityMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/main/resources/mapper/UserMapper.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller-restful.ftl" afterPath="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller-restful.ftl" />
       <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller.ftl" afterPath="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller.ftl" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/service.ftl" afterPath="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/service.ftl" />
       <change beforePath="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generatorConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/application.properties" afterPath="$PROJECT_DIR$/sandstorm-interface/target/classes/application.properties" />
       <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/generator.properties" afterPath="$PROJECT_DIR$/sandstorm-interface/target/classes/generator.properties" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/sandstorm-interface/target/classes/mapper/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/SpringbootdemoApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/api/UserAPI.class" afterPath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/api/UserAPI.class" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/api/UserAPI_example.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/base/AbstractService$1.class" afterPath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/base/AbstractService$1.class" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/base/AbstractService.class" afterPath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/base/AbstractService.class" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/config/SwaggerConfig.class" afterPath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/config/SwaggerConfig.class" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/entity/User.class" afterPath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/entity/User.class" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/entity/User_example.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/rest/LayUIResult.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/rest/Result.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/rest/ResultCode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/rest/ResultGenerator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/service/UserService.class" afterPath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/service/UserService.class" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/mapper/CityMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/mapper/UserMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/api/UserAPI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/entity/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/repository/UserMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/classes/top/biandeshen/sandstorm/service/UserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/test-classes/generator/template/controller-restful.ftl" afterPath="$PROJECT_DIR$/sandstorm-interface/target/test-classes/generator/template/controller-restful.ftl" />
+      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/test-classes/generator/template/controller.ftl" afterPath="$PROJECT_DIR$/sandstorm-interface/target/test-classes/generator/template/controller.ftl" />
       <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/test-classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/sandstorm-interface/target/test-classes/generatorConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/test-classes/top/biandeshen/sandstorm/SpringbootdemoApplicationTests.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sandstorm-interface/target/test-classes/top/biandeshen/sandstorm/api/UserAPITest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,6 +42,7 @@
     <ignored path="$PROJECT_DIR$/sendstorm-interface/target/" />
     <ignored path="$PROJECT_DIR$/sandstorm-interface/target/" />
     <ignored path="$PROJECT_DIR$/sandstorm-common/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,64 +50,65 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CodeGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/generator/CodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="237" column="22" lean-forward="false" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+            <state relative-caret-position="197">
+              <caret line="272" column="22" lean-forward="true" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SandStorm.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SandStorm.iml">
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/rest/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CodeGeneratorClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/java/top/biandeshen/sandstorm/generator/CodeGeneratorClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/CityAPI.java">
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/CityMapper.java">
+      <file leaf-file-name="controller.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/AccountMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
@@ -127,21 +117,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/CityService.java">
+      <file leaf-file-name="generator.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/resources/generator.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="151">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SandStormInterfaceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/SandStormInterfaceApplication.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -177,6 +167,9 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response1.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -188,7 +181,6 @@
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/gateway/api/UserAPI.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/interface/api/UserAPI.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/connector/api/UserAPI.java" />
-        <option value="$PROJECT_DIR$/sandstorm-interface/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/common/generator/CodeGeneratorClient.java" />
         <option value="$PROJECT_DIR$/sandstorm-common/src/main/java/top/biandeshen/sandstorm/common/generator/CodeGenerator.java" />
         <option value="$PROJECT_DIR$/sandstorm-common/src/main/java/top/biandeshen/sandstorm/CodeGenerator.java" />
@@ -215,22 +207,23 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/test/java/top/sandstorm/sandstorm/common/connector/api/UserAPITest.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/UserAPI" />
-        <option value="$PROJECT_DIR$/sandstorm-interface/src/main/resources/generator.properties" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/cityAPI.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/cityService.java" />
-        <option value="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/service.ftl" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/test/java/top/biandeshen/sandstorm/generator/CodeGeneratorClient.java" />
-        <option value="$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/generator/CodeGenerator.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/SandStormInterfaceApplication.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/UserMapper.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/base/Mapper.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/CityMapper.java" />
-        <option value="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/base/AbstractService.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/UserAPI.java" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/CityAPI.java" />
-        <option value="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller-restful.ftl" />
+        <option value="$PROJECT_DIR$/sandstorm-interface/src/main/resources/generator.properties" />
         <option value="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller.ftl" />
+        <option value="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller-restful.ftl" />
+        <option value="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/service.ftl" />
+        <option value="$PROJECT_DIR$/sandstorm-interface/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sandstorm-interface/src/test/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/generator/CodeGenerator.java" />
       </list>
     </option>
   </component>
@@ -265,15 +258,6 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sandstorm-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sandstorm-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="sandstorm-interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -327,7 +311,7 @@
       <autoscrollFromSource />
       <sortByType />
       <manualOrder />
-      <foldersAlwaysOnTop value="false" />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
@@ -336,21 +320,29 @@
           <expand>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -358,6 +350,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -366,6 +359,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -375,6 +369,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -385,21 +380,37 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
+              <item name="sandstorm-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="sandstorm" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -407,6 +418,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -415,6 +427,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -424,6 +437,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -434,6 +448,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -445,6 +460,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -452,21 +468,11 @@
               <item name="top" type="462c0819:PsiDirectoryNode" />
               <item name="biandeshen" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="biandeshen" type="462c0819:PsiDirectoryNode" />
-              <item name="sandstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -478,6 +484,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -489,6 +496,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -496,6 +504,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -504,12 +513,14 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -517,6 +528,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -525,6 +537,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -534,6 +547,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -544,6 +558,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -555,6 +570,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -562,6 +578,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -570,6 +587,7 @@
             </path>
             <path>
               <item name="SandStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandStorm" type="462c0819:PsiDirectoryNode" />
               <item name="sandstorm-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -588,10 +606,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -617,6 +635,32 @@
       <recent name="D:\workspace\SandStorm\sandstorm-interface\src\test\resources" />
     </key>
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:11118" />
+          <option name="urlPath" value="/rbac/account/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -629,7 +673,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodeGeneratorClient">
+  <component name="RunManager" selected="Spring Boot.SandStormInterfaceApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -770,8 +814,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.CodeGeneratorClient" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SandStormInterfaceApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SandStormInterfaceApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CodeGeneratorClient" />
         <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringbootdemoApplication" />
       </list>
     </recent_temporary>
@@ -799,40 +843,51 @@
       <workItem from="1519347645893" duration="16173000" />
       <workItem from="1519616401049" duration="16524000" />
       <workItem from="1519646881849" duration="806000" />
-      <workItem from="1519696158589" duration="207000" />
+      <workItem from="1519696158589" duration="7172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52880000" />
+    <option name="totallyTimeSpent" value="59845000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5057307" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24068768" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38041958" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.49713466" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48391607" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5496504" sideWeight="0.49426934" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33006993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31088826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33006993" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31088826" sideWeight="0.49166667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31088826" sideWeight="0.5083333" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -841,7 +896,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -883,26 +937,47 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="上传到GitHub 2018-2-27 09:45:01 添加许可证等文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传到GitHub 2018-2-27 09:45:01 添加许可证等文件" />
+    <MESSAGE value="修改若干bug 2018-2-27 11:43:27 修改了在生成过程中的bug，解决了大小写不一致的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改若干bug 2018-2-27 11:43:27 修改了在生成过程中的bug，解决了大小写不一致的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/generator/CodeGenerator.java</url>
-          <line>286</line>
+          <line>290</line>
           <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sandstorm-interface/src/test/java/top/biandeshen/sandstorm/generator/CodeGeneratorClient.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sandstorm-interface/src/test/java/top/biandeshen/sandstorm/generator/CodeGeneratorClient.java</url>
@@ -916,305 +991,32 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/generator/CodeGenerator.java</url>
+          <line>282</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/SandStormInterfaceApplication.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/generator/CodeGenerator.java</url>
-          <line>173</line>
+          <line>174</line>
           <properties class="top.sandstorm.common.generator.CodeGenerator" method="genServiceAndController">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/connector/api/UserAPI.java" />
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/common/SpringbootdemoApplication.java" />
-    <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/biandeshen/sandstorm/generator/CodeGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/common/config/SwaggerConfig.java" />
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/connector/SpringbootdemoApplication.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__top_biandeshen_sendstorm_sandstorm_common_1_0_SNAPSHOT.xml" />
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__top_biandeshen_sendstorm_sandstorm_common_0_0_1_SNA.xml" />
-    <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/rest/LayUIResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/rest/ResultGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/rest/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/rest/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/entity/User_example.java" />
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/UserAPI_example.java" />
-    <entry file="uml://MAVEN/top.biandeshen:sandstorm:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>top.biandeshen:sandstorm:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="3.0" y="80.0">top.biandeshen:sandstorm:1.0-SNAPSHOT</node>
-            <node x="0.0" y="0.0">org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="top.biandeshen:sandstorm:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.3.13.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-197.0" y="82.0" />
-          <SelectedNodes>
-            <node>org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node>top.biandeshen:sandstorm:1.0-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-autoconfigure/1.1.4/mapper-spring-boot-autoconfigure-1.1.4.jar!/tk/mybatis/mapper/autoconfigure/MapperProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
-            <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/top.biandeshen:sandstorm-interface:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>top.biandeshen:sandstorm-interface:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">top.biandeshen:sandstorm-interface:1.0-SNAPSHOT</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot:jar:1.5.9.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.21</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.21</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.23</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.23/org.apache.tomcat:tomcat-juli:jar:8.5.23</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.springframework:spring-jdbc:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-tx:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-tx:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.1</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.mybatis:mybatis:jar:3.4.5</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.mybatis:mybatis-spring:jar:1.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.9.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.9.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.9.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.9.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23/org.apache.tomcat:tomcat-annotations-api:jar:8.5.23</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.23</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.23</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.9.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.assertj:assertj-core:jar:3.8.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.mockito:mockito-core:jar:1.10.8</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.mockito:mockito-core:jar:1.10.8/org.objenesis:objenesis:jar:2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework:spring-test:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework:spring-test:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.mybatis.generator:mybatis-generator-core:jar:1.3.5</node>
-            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:1.1.4</node>
-            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:1.1.4/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0</node>
-            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:1.1.4/tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.1.4</node>
-            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:1.1.4/tk.mybatis:mapper:jar:3.4.3</node>
-            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:1.1.4/tk.mybatis:mapper:jar:3.4.3/javax.persistence:persistence-api:jar:1.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-annotations:jar:1.5.13</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0/net.bytebuddy:byte-buddy:jar:1.6.14</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/com.google.guava:guava:jar:20.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/com.google.guava:guava:jar:18.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.slf4j:slf4j-api:jar:1.7.21</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.mapstruct:mapstruct:jar:1.1.0.Final</node>
-            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.7.0</node>
-            <node x="" y="">org.apache.commons:commons-lang3:jar:3.6</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.44</node>
-            <node x="" y="">com.alibaba:fastjson:jar:1.2.20</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.1</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.1/com.fasterxml.jackson.core:jackson-core:jar:2.8.10</node>
-            <node x="" y="">com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.1</node>
-            <node x="" y="">com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1</node>
-            <node x="" y="">com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.1/com.fasterxml.jackson.core:jackson-core:jar:2.9.1</node>
-            <node x="" y="">com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.1</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-core:jar:2.9.1</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1</node>
-            <node x="" y="">com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.3</node>
-            <node x="" y="">com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.3/com.github.pagehelper:pagehelper-spring-boot-autoconfigure:jar:1.2.3</node>
-            <node x="" y="">com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.3/com.github.pagehelper:pagehelper:jar:5.1.2</node>
-            <node x="" y="">com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.3/com.github.pagehelper:pagehelper:jar:5.1.2/com.github.jsqlparser:jsqlparser:jar:1.0</node>
-            <node x="" y="">junit:junit:jar:4.12</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/commons-codec:commons-codec:jar:1.10</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:2.5</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/com.google.guava:guava:jar:18.0</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.9.1</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.10</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/org.freemarker:freemarker:jar:2.3.23</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.3</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">top.biandeshen:sandstorm-common:jar:1.0-SNAPSHOT/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.10000000000000014" x="5399.0" y="1539.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/java/top/sandstorm/sandstorm/common/connector/api/UserAPITest.java" />
-    <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/commons/Exceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/config/TableConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/api/MyBatisGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/UserAPI" />
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="224" column="12" lean-forward="false" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1539">
@@ -1231,22 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/resources/generator.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/base/Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1259,6 +1045,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,14 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/service.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/entity/City.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1136">
@@ -1306,22 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-594">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller-restful.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1350,34 +1113,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/SandStormInterfaceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/java/top/biandeshen/sandstorm/generator/CodeGeneratorClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SandStorm.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
@@ -1393,18 +1128,704 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="351">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/Cms_articleAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/Cms_articleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/rbac_menuAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/java/top/biandeshen/sandstorm/generator/CodeGeneratorClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/rbac_accountAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/SandStormInterfaceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <marker date="1513307298764" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513307298764" expanded="false" signature="149:933" ph="..." />
+            <marker date="1513307298764" expanded="true" signature="1190:1197" ph="{}" />
+            <marker date="1513307298764" expanded="true" signature="1285:1879" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="1972:2445" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="2561:2658" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="2772:3555" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="3649:3857" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="3959:4230" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="4356:4621" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="4755:5077" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5205:6597" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="6675:8300" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8402:8537" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8657:8803" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8901:8982" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="9096:9562" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="9641:11348" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="11437:11908" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="11991:12199" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="12260:12431" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="12493:12790" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="12882:12958" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="13069:13142" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="13262:13340" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="13480:15702" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1513307298764" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513307298764" expanded="false" signature="165:732" ph="..." />
+            <marker date="1513307298764" expanded="true" signature="948:955" ph="{}" />
+            <marker date="1513307298764" expanded="true" signature="1017:1084" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="1175:2846" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="1931:2059" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="2176:2211" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="2959:3080" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="3214:3777" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="3366:3440" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="3556:3579" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="3927:4048" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="4203:6333" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="4320:4394" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="4519:4542" ph="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding>
+            <marker date="1513307298764" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513307298764" expanded="false" signature="165:3404" ph="..." />
+            <marker date="1513307298764" expanded="true" signature="4081:4794" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="4873:4950" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5038:5105" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5170:5220" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5314:5385" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5454:5506" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5584:5655" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5751:5840" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="5893:5904" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="5942:5948" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="6006:6064" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="6142:6775" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="6847:7116" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="7168:7558" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="7652:8501" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8621:8731" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8847:9059" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="9173:10210" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="9640:9714" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="9901:9924" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="10337:10855" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="10957:11244" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="11317:11410" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="11534:11960" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="12083:12508" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="12559:12689" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="12808:14212" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="14345:18685" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="15836:15931" ph="getObject() → {" />
+            <marker date="1513307298764" expanded="true" signature="16055:16074" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="18790:19738" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="19847:20308" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="20421:25287" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="25375:26952" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="27059:27974" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="27082:27166" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="27141:27156" ph="{}" />
+            <marker date="1513307298764" expanded="false" signature="27326:27396" ph="doWith(method) → {" />
+            <marker date="1513307298764" expanded="false" signature="27848:27863" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="28073:28854" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="28960:30187" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="30296:31347" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="31468:31905" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="31996:32691" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="32794:33360" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="33463:35053" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="35189:35914" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="36011:36923" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="36176:36250" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="36434:36457" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="37045:37159" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="37295:37406" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="37497:40656" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="40780:41732" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="41856:43900" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="44000:44630" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="44742:45312" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="45409:45849" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="45926:46141" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="46309:47105" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="47219:50836" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="50952:51375" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="51479:52571" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="51574:51644" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="51786:51805" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="52639:53111" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="53227:54595" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="53706:53810" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="53947:53974" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="54716:56921" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="55780:55880" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="56002:56025" ph="}" />
+            <marker date="1513307298764" expanded="false" signature="56101:56205" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="56320:56347" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="57009:57098" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="57152:57256" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="57347:57594" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="57447:57508" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="57551:57566" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="57578:57588" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <marker date="1513307298764" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513307298764" expanded="false" signature="165:1069" ph="..." />
+            <marker date="1513307298764" expanded="true" signature="2366:2373" ph="{}" />
+            <marker date="1513307298764" expanded="true" signature="2479:3041" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="3116:3491" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="3584:4039" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="4088:4099" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="4140:4146" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="4228:5155" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5240:7700" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="7757:7981" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8035:8359" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8415:8482" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8524:8702" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8739:8897" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8975:9220" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="9280:9457" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="9519:9588" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="9657:9734" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="9796:9998" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="10059:10303" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="10382:10539" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="10632:11379" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="11462:12691" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="12770:12850" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="12952:14050" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="14108:14175" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="14232:14417" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="14479:14716" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="14754:15863" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="15915:16234" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="16305:18107" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="18152:18163" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="18192:18198" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <marker date="1513307298764" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513307298764" expanded="false" signature="165:3203" ph="..." />
+            <marker date="1513307298764" expanded="true" signature="4656:4663" ph="{}" />
+            <marker date="1513307298764" expanded="true" signature="4727:4786" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="4849:4929" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5014:5095" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5174:5244" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5345:5416" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="5550:11518" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8086:8189" ph="getObject() → {" />
+            <marker date="1513307298764" expanded="true" signature="8560:8587" ph="}" />
+            <marker date="1513307298764" expanded="false" signature="9624:9731" ph="getObject() → {" />
+            <marker date="1513307298764" expanded="false" signature="10252:10283" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="11565:12023" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="12106:13663" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="13746:15183" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="14649:14729" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="14878:14905" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="15294:19673" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="19778:19865" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="19945:21788" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="21834:23012" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="23059:23070" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="23100:23106" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="23158:23397" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="23467:23768" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="23834:23952" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="23997:24008" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="24036:24042" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="24108:24163" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="24208:24219" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="24247:24253" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="24319:24378" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="24420:24431" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="24461:24467" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="24544:24599" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="24663:24714" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="24790:24849" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="24902:24913" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="24943:24949" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="25029:25169" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="25241:25294" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="25409:25641" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="25716:25769" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="25848:25890" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="25954:26005" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="26059:26070" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="26096:26102" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="26148:26569" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="26647:26789" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="26836:26847" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="26893:26899" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="26954:27462" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="27538:28049" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="28093:28104" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="28142:28148" ph=" }" />
+            <marker date="1513307298764" expanded="false" signature="28208:28219" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="28250:28256" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="28322:28390" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="28454:28520" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="28583:29435" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="29483:29554" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="29610:29739" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="29826:29890" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="29950:30099" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="30177:31974" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="32061:32402" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="32487:33096" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="33155:33273" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="33345:33539" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="33601:34134" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="34195:34629" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="34697:34799" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="34886:35023" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="35076:35831" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="35887:35973" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="36026:36202" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="36255:36364" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="36440:38504" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="38607:38818" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="38949:39037" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="39197:41626" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="41765:41871" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="41935:41995" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="42034:42309" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="42463:43613" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="42679:42783" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="42895:42918" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="43732:45392" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="45489:45814" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="45919:46184" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="46263:46435" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="46523:47652" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="47708:48099" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="48169:48334" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="48408:48470" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="48552:48736" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="48784:48795" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="48833:48839" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="48962:49961" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="50015:50132" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="50213:50437" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="50546:51345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="558" column="0" lean-forward="false" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
+          <folding>
+            <marker date="1513307298764" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513307298764" expanded="false" signature="165:3169" ph="..." />
+            <marker date="1513307298764" expanded="true" signature="4541:4548" ph="{}" />
+            <marker date="1513307298764" expanded="false" signature="4618:4629" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="4654:4660" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="4721:5022" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="5062:5073" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="5101:5107" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="5197:5280" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="5334:5345" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="5387:5393" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="5469:5538" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="5585:5596" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="5631:5637" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="5720:5785" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="5842:5853" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="5886:5892" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="5998:6775" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="6267:6341" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="6514:6537" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="6845:6899" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="6977:7730" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="7802:7868" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="7956:8414" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8475:8607" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="8648:8659" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="8696:8702" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="8749:8916" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="8979:9047" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="9104:9170" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="9281:10148" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="10268:14581" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="14652:14782" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="14866:14927" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="15065:16274" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="16366:17211" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="17311:17728" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="17866:18534" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="18629:19127" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="19255:19362" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="19529:20463" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="20617:21320" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="21420:21799" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="21852:22073" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="22112:22188" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="22228:22370" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="22414:22425" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="22457:22463" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="22537:22637" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="22704:25893" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="23873:23975" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="24183:24234" ph="}" />
+            <marker date="1513307298764" expanded="false" signature="25239:25323" ph="run() → {" />
+            <marker date="1513307298764" expanded="false" signature="25430:25461" ph="}" />
+            <marker date="1513307298764" expanded="true" signature="26018:29350" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="29443:30454" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="30512:31041" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="31087:31098" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="31144:31150" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="31256:32034" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="32086:32220" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="32258:32376" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="32414:32509" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="32607:33120" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="33235:35681" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="35862:37033" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="37206:40498" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="40651:44409" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="44475:44727" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="44787:44928" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="45022:45278" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="45416:45841" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="45973:48561" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="48708:49054" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="49169:50332" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="50436:51588" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="51700:52987" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="53059:53423" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="53480:53678" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="53757:53911" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="53988:54225" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="54370:54653" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="54747:55824" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="55855:56380" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="56476:56629" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="56696:56980" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="56993:57496" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="57608:57725" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="57678:57693" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="57709:57719" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="57808:57970" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="57883:57964" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="58053:59546" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="58193:58266" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="58317:59081" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="59157:59540" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="59588:59860" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="59630:59641" ph="{}" />
+            <marker date="1513307298764" expanded="true" signature="59740:59854" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="59993:60243" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="60085:60137" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="60189:60237" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="60336:63375" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="60563:60830" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="60888:61180" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="61258:61997" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="61568:61832" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="61686:61814" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="62060:62658" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="62364:62493" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="62413:62440" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="62453:62475" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="62718:63369" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="62813:63077" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="62858:62881" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="62894:62912" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="63011:63063" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="63436:64335" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="63482:63493" ph="{}" />
+            <marker date="1513307298764" expanded="true" signature="63614:64329" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="63737:64166" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="63782:63805" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="63818:63836" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="63950:64152" ph="{...}" />
+            <marker date="1513307298764" expanded="true" signature="64417:64941" ph="{...}" />
+            <marker date="1513307298764" expanded="false" signature="64509:64524" ph=" { " />
+            <marker date="1513307298764" expanded="false" signature="64537:64547" ph=" }" />
+            <marker date="1513307298764" expanded="true" signature="64586:64935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller-restful.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/service.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/LogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/RoleMenuAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/entity/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/entity/UserProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/entity/RoleMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/rest/ResultGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/AccountAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/rest/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/api/ArticleAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/repository/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/java/top/biandeshen/sandstorm/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/test/resources/generator/template/controller.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandstorm-interface/src/main/resources/generator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sandstorm-common/src/main/java/top/sandstorm/common/generator/CodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="237" column="22" lean-forward="false" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+        <state relative-caret-position="197">
+          <caret line="272" column="22" lean-forward="true" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1463,7 +1884,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sandstorm-common</last-edited>
+          <last-edited>sandstorm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

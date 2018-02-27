@@ -55,7 +55,7 @@
 
         <!--配合CodeGenerator的专用写法，带*的会认为tableName是前缀-->
         <!--<table tableName="rbac_*"  >-->
-        <table tableName="*">
+        <table tableName="cms_*">
             <!--主键生成方式-->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
