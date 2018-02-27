@@ -31,6 +31,7 @@
             <artifactId>commons-io</artifactId>
             <version>${commons-io.version}</version>
         </dependency>
+
         <!-- =========================== -->
         <!-- google guava dependencies-->
         <!-- =========================== -->
@@ -49,12 +50,12 @@
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
-        <dependency>
-            <groupId>net.sf.dozer</groupId>
-            <artifactId>dozer</artifactId>
-            <version>${dozer.version}</version>
-            <!--<optional>true</optional>-->
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>net.sf.dozer</groupId>-->
+            <!--<artifactId>dozer</artifactId>-->
+            <!--<version>${dozer.version}</version>-->
+            <!--&lt;!&ndash;<optional>true</optional>&ndash;&gt;-->
+        <!--</dependency>-->
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-jaxb-annotations</artifactId>

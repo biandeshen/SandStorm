@@ -1,50 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE generatorConfiguration PUBLIC
-    "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
-    "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd"> <!-- 配置生成器 -->
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd"> <!-- 配置生成器 -->
 <generatorConfiguration>
-  <properties resource="generator.properties"/>
-  <!--指定特定数据库的jdbc驱动jar包的位置 -->
-  <!--<classPathEntry location="${jdbc.driverLocation}"/>-->
-  <context id="sandstorm-interface" defaultModelType="hierarchical" targetRuntime="MyBatis3Simple">
+    <properties resource="generator.properties"/>
+    <!--指定特定数据库的jdbc驱动jar包的位置 -->
+    <!--<classPathEntry location="${jdbc.driverLocation}"/>-->
+    <context id="sandstorm-interface" defaultModelType="hierarchical"
+             targetRuntime="MyBatis3Simple">
 
-    <property name="autoDelimitKeywords" value="false"/>
-    <property name="javaFileEncoding" value="UTF-8"/>
-    <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
-    <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
-    <property name="beginningDelimiter" value="${db.obj.Delimiter}"/>
-    <property name="endingDelimiter" value="${db.obj.Delimiter}"/>
-    <!-- mergeable 为true时，可合并，为false，重新生成的时采用覆盖-->
-    <property name="mergeable" value="false"></property>
+        <property name="autoDelimitKeywords" value="false"/>
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
+        <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
+        <property name="beginningDelimiter" value="${db.obj.Delimiter}"/>
+        <property name="endingDelimiter" value="${db.obj.Delimiter}"/>
+        <!-- mergeable 为true时，可合并，为false，重新生成的时采用覆盖-->
+        <property name="isMergeable" value="false"/>
 
-    <jdbcConnection driverClass="${jdbc.driver}" connectionURL="${jdbc.url}"
-                    userId="${jdbc.username}" password="${jdbc.password}"/>
-    <javaTypeResolver type="org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl">
-      <property name="forceBigDecimals" value="false"/>
-    </javaTypeResolver>
 
-    <!--model-->
-    <javaModelGenerator targetPackage="${gen.basepackage}.entity" targetProject="${project.path}${java.path}">
-      <property name="constructorBased" value="false"/>
-      <property name="enableSubPackages" value="true"/>
-      <property name="immutable" value="false"/>
-      <property name="trimStrings" value="true"/>
-    </javaModelGenerator>
-    <!--mapper xml file-->
-    <sqlMapGenerator targetPackage="mapper" targetProject="${project.path}${resources.path}">
-      <property name="enableSubPackages" value="false"/>
-    </sqlMapGenerator>
-    <!--Mapper interface-->
-    <javaClientGenerator targetPackage="${gen.basepackage}.repository" type="XMLMAPPER"
-                         targetProject="${project.path}${java.path}">
-      <property name="enableSubPackages" value="false"/>
-    </javaClientGenerator>
+        <!-- 通用Mapper的插件com.github.abel533.generator.MapperPlugin(查看具体的pom中mapper)，
+        该插件有一个必选的<property>属性mappers，这里的mappers和通用Mapper
+        中的mappers配置含义一样，就是我们使用的通用Mapper接口(自带的或自定义的)，
+        多个通用Mapper接口可以用逗号隔开 -->
+        <!--     <plugin type="com.github.abel533.generator.MapperPlugin">
+                 <property name="mappers" value="com.github.abel533.mapper.Mapper"/>
+             </plugin>-->
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="top.biandeshen.sandstorm.base.Mapper"/>
+        </plugin>
 
-    <!--配合CodeGenerator的专用写法，带*的会认为tableName是前缀-->
-    <!--<table tableName="rbac_*"  >-->
-    <table tableName="%"  >
-      <!--主键生成方式-->
-      <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
-    </table>
+        <jdbcConnection driverClass="${jdbc.driver}" connectionURL="${jdbc.url}"
+                        userId="${jdbc.username}" password="${jdbc.password}"/>
+        <javaTypeResolver type="org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl">
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
 
-  </context>
+        <!--model-->
+        <javaModelGenerator targetPackage="${gen.basepackage}.entity"
+                            targetProject="${project.path}${java.path}">
+            <property name="constructorBased" value="false"/>
+            <property name="enableSubPackages" value="true"/>
+            <property name="immutable" value="false"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!--mapper xml file-->
+        <sqlMapGenerator targetPackage="mapper" targetProject="${project.path}${resources.path}">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+        <!--Mapper interface-->
+        <javaClientGenerator targetPackage="${gen.basepackage}.repository" type="XMLMAPPER"
+                             targetProject="${project.path}${java.path}">
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>
+
+        <!--配合CodeGenerator的专用写法，带*的会认为tableName是前缀-->
+        <!--<table tableName="rbac_*"  >-->
+        <table tableName="*">
+            <!--主键生成方式-->
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+
+    </context>
 </generatorConfiguration>

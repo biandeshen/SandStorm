@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 //@EnableEurekaClient
 @MapperScan("top.biandeshen.sandstorm.repository")
-public class SpringbootdemoApplication {
+public class SandStormInterfaceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootdemoApplication.class, args);
+		SpringApplication.run(SandStormInterfaceApplication.class, args);
 	}
 }

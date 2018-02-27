@@ -37,7 +37,7 @@ public class CodeGenerator {
   private static final Logger LOGGER = LoggerFactory.getLogger( CodeGenerator.class );
 
   //from constructor or keep default
-  private String propertiesPath = "/application-dev1.properties";
+  private String propertiesPath = "/generator.properties";
   private String configPath = "/generatorConfig.xml";
 
   //fields with default value
@@ -175,7 +175,8 @@ public class CodeGenerator {
     dealTables();
     List<TableConfiguration> tableConfigs = context.getTableConfigurations();
     for (TableConfiguration conf : tableConfigs) {
-      String domainName = conf.getDomainObjectName();
+//      String domainName = conf.getDomainObjectName();
+      String domainName = conf.getTableName();
       try {
         //build config
         buildFreemarkerConfiguration( templateDir );
@@ -268,7 +269,7 @@ public class CodeGenerator {
         String dbTableName = dbTableNameIter.next();
         // 配置中表名为*，则所有表都符合要求
         if (tcTableName.equals( "*" )) {
-          newTcs.add( configTable( dbTableName, null, oldTc.getGeneratedKey() ) );
+          newTcs.add( configTable( dbTableName.substring(0,1).toUpperCase()+dbTableName.substring(1), null, oldTc.getGeneratedKey() ) );
         } else {
           int starIndex = tcTableName.indexOf( "*" );
           //截取前缀
