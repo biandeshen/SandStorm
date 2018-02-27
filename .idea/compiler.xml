@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sandstorm-admin" />
+        <module name="sandstorm-cms" />
         <module name="sandstorm-common" />
+        <module name="sandstorm-gateway" />
         <module name="sandstorm-interface" />
+        <module name="sandstorm-org" />
         <module name="sendstorm-core" />
         <module name="springbootdemo" />
       </profile>
@@ -15,8 +19,13 @@
     <bytecodeTargetLevel>
       <module name="SandStorm" target="1.8" />
       <module name="sandstorm" target="1.8" />
+      <module name="sandstorm-admin" target="1.8" />
+      <module name="sandstorm-cms" target="1.8" />
       <module name="sandstorm-common" target="1.8" />
+      <module name="sandstorm-gateway" target="1.8" />
       <module name="sandstorm-interface" target="1.8" />
+      <module name="sandstorm-org" target="1.8" />
+      <module name="sandstormgate-way" target="1.8" />
       <module name="SendStorm" target="1.6" />
       <module name="sendstorm-core" target="1.5" />
       <module name="springbootdemo" target="1.8" />

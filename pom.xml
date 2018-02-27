@@ -10,6 +10,11 @@
     <modules>
         <module>sandstorm-common</module>
         <module>sandstorm-interface</module>
+        <module>sandstorm-cms</module>
+        <module>sandstorm-org</module>
+        <module>sandstorm-admin</module>
+        <module>sandstormgate-way</module>
+        <module>sandstorm-gateway</module>
     </modules>
 
 
