@@ -4,18 +4,23 @@ package top.sandstorm.common.rest;
  * 响应码枚举，参考HTTP状态码的语义
  */
 public enum ResultCode {
-    SUCCESS(200),
     //成功
-    BAD_REQUEST(400),
+    SUCCESS(200),
+
     //bad request
-    UNAUTHORIZED(401),
+    BAD_REQUEST(400),
+
     //未认证（签名错误）
-    FORBIDDEN(403),
+    UNAUTHORIZED(401),
+
     //Forbidden
-    NOT_FOUND(404),
+    FORBIDDEN(403),
+
     //接口不存在
-    INTERNAL_SERVER_ERROR(500);
+    NOT_FOUND(404),
+
     //服务器内部错误
+    INTERNAL_SERVER_ERROR(500);
 
     public int code;
     ResultCode(int code) {
