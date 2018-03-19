@@ -7,7 +7,7 @@
  * <author>          <time>          <version>
  * fanjiangpan           2018/3/15           版本号
  */
-package top.biandeshen.sandstorm.config;
+package top.biandeshen.sandstorm.shiro;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -15,6 +15,7 @@ import org.apache.shiro.web.filter.authc.AuthenticatingFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import top.biandeshen.sandstorm.config.SysConst;
 import top.biandeshen.sandstorm.manager.TokenManager;
 import top.biandeshen.sandstorm.shiro.Constants;
 import top.biandeshen.sandstorm.shiro.UserIDToken;

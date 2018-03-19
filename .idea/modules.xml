@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sandstorm.iml" filepath="$PROJECT_DIR$/sandstorm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sandstorm-admin/sandstorm-admin.iml" filepath="$PROJECT_DIR$/sandstorm-admin/sandstorm-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/sandstorm-cms/sandstorm-cms.iml" filepath="$PROJECT_DIR$/sandstorm-cms/sandstorm-cms.iml" />
       <module fileurl="file://$PROJECT_DIR$/sandstorm-common/sandstorm-common.iml" filepath="$PROJECT_DIR$/sandstorm-common/sandstorm-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/sandstorm-gateway/sandstorm-gateway.iml" filepath="$PROJECT_DIR$/sandstorm-gateway/sandstorm-gateway.iml" />

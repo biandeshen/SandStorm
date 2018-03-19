@@ -35,8 +35,10 @@ public class CodeGeneratorClient {
 
   public static void main(String[] args) {
     final CodeGeneratorClient client = new CodeGeneratorClient();
-    client.generateMapper();
-    client.generateServiceAndController();
+    //生成entity，repository，mapper，
+//    client.generateMapper();
+    //生成service，controller
+//    client.generateServiceAndController();
   }
 
 }
