@@ -1,4 +1,4 @@
-package org.lanqiao.restdemo.config;
+package top.biandeshen.sandstorm.config;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
@@ -7,16 +7,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import top.biandeshen.sandstorm.manager.Impl.RedisTokenManager;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -24,9 +23,16 @@ import java.util.List;
 
 
 /*以前关于mvc的配置在这里进行，继承WebMvcConfigurerAdapter，并覆写相关方法*/
-@Configuration
+//@Configuration
 public class MvcConfig extends WebMvcConfigurerAdapter {
   static Logger logger = LoggerFactory.getLogger( MvcConfig.class );
+
+//  @Bean
+//  public RedisTokenManager tokenManager(){
+//    return new RedisTokenManager();
+//  }
+
+
 
   @Override
   public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
@@ -47,17 +53,21 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
   @Override
   public void addInterceptors(InterceptorRegistry registry) {
     registry.addInterceptor( new HandlerInterceptor() {
+      @Override
       public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         /*只有debug级别被启动时才有这项输出，请查看application.properties和logback-spring.xml两个文件*/
-        if (logger.isDebugEnabled())
+        if (logger.isDebugEnabled()) {
           logger.debug( "我是拦截器，拦截：" + request.getRequestURI() );
+        }
         return true;
       }
 
+      @Override
       public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
 
       }
 
+      @Override
       public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
 
       }

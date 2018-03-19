@@ -7,7 +7,7 @@
  * <author>          <time>          <version>
  * fanjiangpan           2018/3/8           版本号
  */
-package top.sandstorm.org.shiro;
+package top.biandeshen.sandstorm.shiro;
 
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -49,7 +49,7 @@ public class ShiroRestRealm extends AuthorizingRealm {
         //userid
         //获取principal对象，一般都是子类在执行授权操作赋予的
         // http://www.codes51.com/itwd/1210257.html
-        String userId = (String) super.getAvailablePrincipal(principals);
+        String userId = String.valueOf(super.getAvailablePrincipal(principals));
         //userid 可访问的所有url的集合
         Set<String> permissions = accountService.findPermissionsById(userId);
         //添加url集合至AuthorInfo

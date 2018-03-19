@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.web2017.commons;
+package top.sandstorm.common.commons;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.Validate;

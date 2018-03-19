@@ -1,4 +1,4 @@
-package org.web2017.commons;
+package top.sandstorm.common.commons;
 
 import org.apache.shiro.crypto.hash.Md5Hash;
 
@@ -8,10 +8,10 @@ import org.apache.shiro.crypto.hash.Md5Hash;
  */
 public class MD5Util {
   public static String md5(String str,String salt){
-    return new Md5Hash(str,salt).toString() ;
+    return new Md5Hash(str,salt).toString().trim() ;
   }
   public static String md5(String s) {
-    return new Md5Hash(s).toString();
+    return new Md5Hash(s).toString().trim();
   }
 
   public static void main(String[] args) {

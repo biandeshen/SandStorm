@@ -7,7 +7,7 @@
  * <author>          <time>          <version>
  * fanjiangpan           2018/3/8           版本号
  */
-package top.sandstorm.org.shiro;
+package top.biandeshen.sandstorm.shiro;
 
 import org.apache.shiro.authc.AuthenticationToken;
 

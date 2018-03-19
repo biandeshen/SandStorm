@@ -3,11 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.web2017.test.data;
-
-import java.sql.SQLException;
-
-import javax.sql.DataSource;
+package top.sandstorm.common.data;
 
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.Resource;
@@ -15,6 +11,9 @@ import org.springframework.core.io.ResourceLoader;
 import org.springframework.core.io.support.EncodedResource;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.datasource.init.ScriptUtils;
+
+import javax.sql.DataSource;
+import java.sql.SQLException;
 
 /**
  * SQL数据文件导入工具类。

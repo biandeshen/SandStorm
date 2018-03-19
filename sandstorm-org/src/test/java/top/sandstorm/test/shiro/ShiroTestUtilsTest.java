@@ -3,12 +3,12 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.web2017.test.security.shiro;
-
-import static org.assertj.core.api.Assertions.*;
+package top.sandstorm.test.shiro;
 
 import org.apache.shiro.SecurityUtils;
 import org.junit.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ShiroTestUtilsTest {
 

@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.web2017.test.data;
+package top.sandstorm.common.data;
 
 import java.util.Collections;
 import java.util.List;

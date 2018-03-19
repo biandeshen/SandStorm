@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Condition;
+import top.sandstorm.common.rest.ServiceException;
 
 import javax.annotation.Resource;
 import java.lang.reflect.Field;
@@ -74,7 +75,7 @@ public abstract class AbstractService<T> implements Service<T> {
       field.set(model, value);
       return mapper.selectOne(model);
     } catch (ReflectiveOperationException e) {
-      throw new RuntimeException(e.getMessage());
+      throw new ServiceException(e.getMessage(),e);
     }
   }
 

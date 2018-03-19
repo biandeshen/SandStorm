@@ -1,19 +1,19 @@
-package org.lanqiao.rbac.config;
+package top.biandeshen.sandstorm.config;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.context.annotation.Profile;
-import org.web2017.commons.Https;
-import org.web2017.commons.Responses;
-import org.web2017.web.rest.Result;
-import org.web2017.web.rest.ResultCode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+import top.sandstorm.common.commons.Https;
+import top.sandstorm.common.commons.Responses;
+import top.sandstorm.common.rest.Result;
+import top.sandstorm.common.rest.ResultCode;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -21,9 +21,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// @Configuration
-@PropertySource( "classpath:/application.properties" )
-@Profile("production")
+//@Configuration
+//@PropertySource( "classpath:/application.properties" )
+//@Profile("production")
 public class WebMvcConfig {
   private final Logger logger = LoggerFactory.getLogger( WebMvcConfig.class );
   @Bean
@@ -67,11 +67,12 @@ public class WebMvcConfig {
         linkString += key + "=" + request.getParameter( key ) + "&";
       }
     }
-    if (StringUtils.isEmpty( linkString ))
+    if (StringUtils.isEmpty( linkString )) {
       return false;
+    }
 
     linkString = linkString.substring( 0, linkString.length() - 1 );
-    String key = "XiaoJiu";//自己修改
+    String key = "FanjiangPan";//自己修改
     String sign = DigestUtils.md5Hex( linkString + key );
 
     return StringUtils.equals( sign, requestSign );
@@ -79,6 +80,6 @@ public class WebMvcConfig {
   }
 
   public static void main(String[] args) {
-    System.out.println(DigestUtils.md5Hex( "page=1&size=10XiaoJiu" ));
+    System.out.println(DigestUtils.md5Hex( "page=1&size=10FanjiangPan" ));
   }
 }

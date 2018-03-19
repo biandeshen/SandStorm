@@ -7,7 +7,7 @@
  * <author>          <time>          <version>
  * fanjiangpan           2018/3/9           版本号
  */
-package top.sandstorm.org.config; /**
+package top.biandeshen.sandstorm.config; /**
  * FileName: SysConst
  * Author:   fanjiangpan
  * Date:     2018/3/9 8:56

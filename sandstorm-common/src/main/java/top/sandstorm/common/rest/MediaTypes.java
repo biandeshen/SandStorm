@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.web2017.web;
+package top.sandstorm.common.rest;
 
 /**
  * 带UTF-8 charset 定义的MediaType.

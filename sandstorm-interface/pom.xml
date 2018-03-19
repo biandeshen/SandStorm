@@ -68,6 +68,17 @@
         </dependency>
         <!-- swagger-springmvc dependencies end-->
 
+        <!--Redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>jandex</artifactId>
+            <version>1.1.0.Final</version>
+        </dependency>
+
         <dependency>
             <groupId>top.biandeshen</groupId>
             <artifactId>sandstorm-common</artifactId>

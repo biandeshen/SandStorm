@@ -13,7 +13,7 @@ package top.biandeshen.sandstorm.config;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import top.sandstorm.org.shiro.StatelessAuthcFilter;
+import top.biandeshen.sandstorm.shiro.StatelessAuthcFilter;
 
 /**
  * 〈参考链接https://www.cnblogs.com/yuananyun/p/8033822.html〉
@@ -30,4 +30,11 @@ public class ShiroFilterRegisterConfig {
         registration.setEnabled(false);
         return registration;
     }
+
+//    @Bean
+//    public FilterRegistrationBean AddTokenFilterRegistration(AddTokenFilter addTokenFilter) {
+//        FilterRegistrationBean registration = new FilterRegistrationBean(addTokenFilter);
+//        registration.setEnabled(false);
+//        return registration;
+//    }
 }

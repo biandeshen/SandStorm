@@ -7,7 +7,7 @@
  * <author>          <time>          <version>
  * fanjiangpan           2018/3/15           版本号
  */
-package top.sandstorm.org.shiro;
+package top.biandeshen.sandstorm.shiro;
 
 /**
  * 〈常量〉

@@ -2,8 +2,14 @@ package top.sandstorm.common.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.validation.BindException;
 import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.NoHandlerFoundException;
@@ -19,9 +25,12 @@ import java.util.Map;
  * 处理器方法抛出的异常解析器：<br/>
  * 在这里我们可以对异常进行转码、包装或者序列化为json响应给客户端
  */
+@ControllerAdvice
 public class RestHandlerExceptionResolver extends AbstractHandlerExceptionResolver {
   private final Logger logger = LoggerFactory.getLogger(RestHandlerExceptionResolver.class);
 
+  @ExceptionHandler(value = Exception.class)
+  @ResponseBody
   @Override
   protected ModelAndView doResolveException(HttpServletRequest request, HttpServletResponse response, Object handler, Exception e) {
     Result result = new Result();

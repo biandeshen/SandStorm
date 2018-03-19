@@ -1,4 +1,4 @@
-package top.sandstorm.org.shiro;
+package top.biandeshen.sandstorm.shiro;
 
 import java.util.Set;
 

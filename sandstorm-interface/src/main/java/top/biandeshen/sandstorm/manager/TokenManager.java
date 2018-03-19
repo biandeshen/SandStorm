@@ -7,7 +7,7 @@
  * <author>          <time>          <version>
  * fanjiangpan           2018/3/15           版本号
  */
-package top.sandstorm.org.shiro; /**
+package top.biandeshen.sandstorm.manager; /**
  * FileName: TokenManager
  * Author:   fanjiangpan
  * Date:     2018/3/15 9:10
@@ -17,16 +17,8 @@ package top.sandstorm.org.shiro; /**
  * fanjiangpan           2018/3/15           版本号 
  */
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
+import top.biandeshen.sandstorm.shiro.UserIDToken;
 
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
 
 /**
  * 〈对token进行操作的接口〉
@@ -54,10 +46,10 @@ public interface TokenManager {
 
     /**
      * 从字符串中解析token
-     * @param authentication 加密后的字符串
+     * @param userid userid
      * @return
      */
-    UserIDToken getToken(String authentication);
+    UserIDToken getToken(String userid);
 
     /**
      * 清除token

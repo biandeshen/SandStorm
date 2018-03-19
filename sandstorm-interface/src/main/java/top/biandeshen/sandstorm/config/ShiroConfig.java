@@ -7,10 +7,9 @@
  * <author>          <time>          <version>
  * fanjiangpan           2018/3/9           版本号
  */
-package top.sandstorm.org.config;
+package top.biandeshen.sandstorm.config;
 
 import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.mgt.DefaultSessionStorageEvaluator;
 import org.apache.shiro.mgt.DefaultSubjectDAO;
 import org.apache.shiro.mgt.SecurityManager;
@@ -30,13 +29,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import top.biandeshen.sandstorm.manager.TokenManager;
 import top.biandeshen.sandstorm.service.AccountService;
-import top.sandstorm.org.shiro.IAccountService;
-import top.sandstorm.org.shiro.ShiroRestRealm;
-import top.sandstorm.org.shiro.StatelessAuthFilter;
+import top.biandeshen.sandstorm.shiro.IAccountService;
+import top.biandeshen.sandstorm.shiro.ShiroRestRealm;
+import top.biandeshen.sandstorm.shiro.StatelessAuthcFilter;
 
 import javax.servlet.Filter;
+import java.io.IOException;
+import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Properties;
 
 /**
  * 〈Shiro框架的java配置文件〉
@@ -46,51 +51,75 @@ import java.util.Map;
  * <p>
  * 参考链接：http://blog.csdn.net/u013615903/article/details/78781166
  */
-
 @Configuration
 public class ShiroConfig {
+    /**
+     * <bean id="shiroFilter" class="ShiroFilterFactoryBean" />
+     * 总过滤器
+     *
+     * @param securityManager 依赖的安全管理器
+     * @param authcFilter     自定义权限过滤器
+     */
     @Bean
     @Autowired
-    public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager, StatelessAuthFilter authFilter) {
+    public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager, StatelessAuthcFilter authcFilter/*, AddTokenFilter addTokenFilter*/) throws IOException {
         ShiroFilterFactoryBean bean = new ShiroFilterFactoryBean();
         bean.setSecurityManager(securityManager);
+
+        //bean.setFilters(filters);
 
         /* 注册实际的拦截器 */
         Map<String, Filter> filters = bean.getFilters();
         //自定义的无状态权限验证过滤器
-        filters.put("stateLessAuthFilter", authFilter);
+        filters.put("stateLessAuthcFilter", authcFilter);
         // shiro提供的不做任何处理的过滤器
         filters.put("anon", new AnonymousFilter());
+//        filters.put("addToken",/* new AddTokenFilter() */addTokenFilter);
         // shiro提供的过滤器
         filters.put("noSessionCreation", new NoSessionCreationFilter());
 
-        //bean.setFilters(filters);
         /* 登录跳转链接 */
         bean.setLoginUrl("/rbac/account/login");
         bean.setUnauthorizedUrl("/rbac/account/unauthorized");
-
         /* 不同的url用不同的过滤器拦截 */
+        //拦截器.
+        LinkedHashMap<String, String> filterChainDefinitionMap = new LinkedHashMap<>();
         //不拦截的写在前面
-        bean.getFilterChainDefinitionMap().put("rbac/account/login", "anon");
-        bean.getFilterChainDefinitionMap().put("/rbac/account/unauthorized", "anon");
+        //通过此路径获取验证
+        filterChainDefinitionMap.put("/rbac/account/login", "anon");
+        filterChainDefinitionMap.put("/rbac/account/unauthorized", "anon");
+        filterChainDefinitionMap.put("/rbac/account/logout", "anon");
+        filterChainDefinitionMap.put("/favicon.ico", "anon");
+        //todo
         //生产环境开启权限和身份验证
-        if (System.getProperty("spring.profiles.active") == null ||
-                System.getProperty("spring.profiles.active").equals("production")) {
-            //其余所有路径都会被拦截
-            bean.getFilterChainDefinitionMap().put("/**", "noSessionCreation,stateLessAuthFilter");
-            //添加路径拦截
-
+        String propertiesPath = "/application.properties";
+        Resource resource = new ClassPathResource(propertiesPath);
+        Properties props = new Properties();
+        props.load(resource.getInputStream());
+        if (props.getProperty("spring.profiles.active") == null ||
+                props.getProperty("spring.profiles.active").equals("production")) {
+            // 其余所有路径都会被拦截
+            bean.setFilterChainDefinitionMap(filterChainDefinitionMap);
+            filterChainDefinitionMap.put("/**", "noSessionCreation,stateLessAuthcFilter");
+            // 添加路径拦截
         } else {
             bean.getFilterChainDefinitionMap().put("/**", "anon");
         }
         return bean;
     }
+//
+//    @Bean
+//    public AddTokenFilter addTokenFilter(TokenManager redisTokenManager) {
+//        AddTokenFilter addTokenFilter = new AddTokenFilter();
+////        addTokenFilter.setRedisTokenManager(redisTokenManager);
+//        return addTokenFilter;
+//    }
 
     @Bean
-    public StatelessAuthFilter authFilter(AccountService accountService){
-        StatelessAuthFilter authFilter = new StatelessAuthFilter();
-        authFilter.setAccountService(accountService);
-        return authFilter;
+    public StatelessAuthcFilter authFilter(AccountService accountService) {
+        StatelessAuthcFilter authcFilter = new StatelessAuthcFilter();
+        authcFilter.setAccountService(accountService);
+        return authcFilter;
     }
 
     @Bean
