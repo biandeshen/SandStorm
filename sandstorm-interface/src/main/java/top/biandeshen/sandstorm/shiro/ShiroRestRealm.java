@@ -14,7 +14,9 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import top.biandeshen.sandstorm.entity.Menu;
 
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -51,9 +53,13 @@ public class ShiroRestRealm extends AuthorizingRealm {
         // http://www.codes51.com/itwd/1210257.html
         String userId = String.valueOf(super.getAvailablePrincipal(principals));
         //userid 可访问的所有url的集合
-        Set<String> permissions = accountService.findPermissionsById(userId);
+        Set<Menu> permissions = accountService.findPermissionsById(userId);
+        Set<String> permissionsplus = new HashSet<>(permissions.size());
+        for (Menu menu:permissions) {
+            permissionsplus.add(menu.getUrl());
+        }
         //添加url集合至AuthorInfo
-        simpleAuthorInfo.addStringPermissions(permissions);
+        simpleAuthorInfo.addStringPermissions(permissionsplus);
         return simpleAuthorInfo;
     }
 

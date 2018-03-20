@@ -31,17 +31,18 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
+import top.biandeshen.sandstorm.entity.Menu;
 import top.biandeshen.sandstorm.manager.TokenManager;
 import top.biandeshen.sandstorm.service.AccountService;
+import top.biandeshen.sandstorm.shiro.Constants;
 import top.biandeshen.sandstorm.shiro.IAccountService;
 import top.biandeshen.sandstorm.shiro.ShiroRestRealm;
 import top.biandeshen.sandstorm.shiro.StatelessAuthcFilter;
+import top.sandstorm.common.commons.Exceptions;
 
 import javax.servlet.Filter;
 import java.io.IOException;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * 〈Shiro框架的java配置文件〉
@@ -53,6 +54,7 @@ import java.util.Properties;
  */
 @Configuration
 public class ShiroConfig {
+
     /**
      * <bean id="shiroFilter" class="ShiroFilterFactoryBean" />
      * 总过滤器
@@ -100,6 +102,17 @@ public class ShiroConfig {
                 props.getProperty("spring.profiles.active").equals("production")) {
             // 其余所有路径都会被拦截
             bean.setFilterChainDefinitionMap(filterChainDefinitionMap);
+            //todo 要么设置拦截器，拦截用户的method，要么在此处用rest，赋予用户的权限
+            //根据用户ID查询权限（permission），放入到Authorization里。
+    /*List<SysPermission> permissionList = sysPermissionService.selectByMap(map);
+    Set<String> permissionSet = new HashSet<String>();
+    for(SysPermission Permission : permissionList){
+        permissionSet.add(Permission.getName());
+    }*/
+/*            Set<String> permissons = 查询用户角色权限列表(findpromissionbyid);
+            for (String str : permissons) {
+                filterChainDefinitionMap.put(str.get访问路径，rest[str.get访问方法])
+            }*/
             filterChainDefinitionMap.put("/**", "noSessionCreation,stateLessAuthcFilter");
             // 添加路径拦截
         } else {

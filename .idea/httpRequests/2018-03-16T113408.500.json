@@ -1,0 +1,8 @@
+{
+  "timestamp": 1521171248014,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "java.lang.NullPointerException",
+  "message": "No message available",
+  "path": "/rbac/account/login"
+}

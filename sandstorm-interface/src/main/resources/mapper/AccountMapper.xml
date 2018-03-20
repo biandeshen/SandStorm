@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.biandeshen.sandstorm.repository.AccountMapper">
+  <resultMap id="BaseResultMap" type="top.biandeshen.sandstorm.entity.Account">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_profile_id" jdbcType="INTEGER" property="userProfileId" />
+    <result column="account" jdbcType="VARCHAR" property="account" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="type" jdbcType="SMALLINT" property="type" />
+    <result column="login_time" jdbcType="TIMESTAMP" property="loginTime" />
+    <result column="last_login_time" jdbcType="TIMESTAMP" property="lastLoginTime" />
+    <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate" />
+    <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified" />
+    <result column="token" jdbcType="CHAR" property="token" />
+  </resultMap>
+
+  <select id="selectPermissionsById" parameterType="int" resultType="top.biandeshen.sandstorm.entity.Menu">
+    select menu.url,menu.state
+    FROM rbac_account acc  JOIN rbac_user_profile pro ON acc.user_profile_id=pro.id
+    JOIN rbac_user_role userrole ON pro.id=userrole.user_id
+    JOIN rbac_role role ON userrole.role_id=role.id
+    JOIN rbac_role_menu rolemenu ON  role.id=rolemenu.role_id
+    JOIN rbac_menu menu ON rolemenu.menu_id=menu.id
+    WHERE acc.id=#{param1};
+  </select>
+</mapper>

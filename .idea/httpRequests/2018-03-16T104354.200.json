@@ -1,0 +1,8 @@
+{
+  "code": 200,
+  "message": "SUCCESS",
+  "data": {
+    "userid": 1,
+    "token": "1d220e1331cd489b83739ef1950d4115"
+  }
+}

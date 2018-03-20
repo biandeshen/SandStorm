@@ -21,7 +21,6 @@ public class Constants {
      * 功能描述: <br>
      * 〈存放登录时用户ID〉
      *
-
      * @return:
      * @since: 1.0.0
      * @Author:fanjiangpan
@@ -30,19 +29,7 @@ public class Constants {
      public static Integer USER_ID_TMP = null;
 
     /**
-     * 存储当前登录用户id的字段名
-     */
-    public static  String CURRENT_USER_ID = "CURRENT_USER_ID";
-
-    /**
      * token有效期（小时）
      */
     public static final int TOKEN_EXPIRES_HOUR = 2;
-
-    /**
-     * 存放Authorization的header字段
-     */
-    public static final String AUTHORIZATION = "authorization";
-
-    public static String SERVER_TOKEN = null;
 }

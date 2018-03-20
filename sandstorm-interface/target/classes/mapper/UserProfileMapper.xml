@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.biandeshen.sandstorm.repository.UserProfileMapper">
+  <resultMap id="BaseResultMap" type="top.biandeshen.sandstorm.entity.UserProfile">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+    <result column="real_name" jdbcType="VARCHAR" property="realName" />
+    <result column="gender" jdbcType="BIT" property="gender" />
+    <result column="enable" jdbcType="BIT" property="enable" />
+    <result column="headImage" jdbcType="LONGVARCHAR" property="headimage" />
+  </resultMap>
+</mapper>

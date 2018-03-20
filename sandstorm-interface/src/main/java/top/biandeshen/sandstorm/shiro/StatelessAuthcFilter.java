@@ -8,7 +8,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import top.biandeshen.sandstorm.config.SysConst;
 import top.biandeshen.sandstorm.manager.TokenManager;
+import top.sandstorm.common.commons.Exceptions;
 import top.sandstorm.common.commons.MD5Util;
+import top.sandstorm.common.rest.ForbidException;
+import top.sandstorm.common.rest.ServiceException;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -84,6 +87,11 @@ public class StatelessAuthcFilter extends PermissionsAuthorizationFilter {
         if (logger.isDebugEnabled()) {
             logger.debug("服务端计算出来的签名是：" + serverSign);
         }
+        /* 如果用户状态为禁用，则抛出异常 */
+        //todo
+/*        if (enable == 0){
+            throw new ForbidException();
+        }*/
         return clientSign.equals(serverSign);
     }
 

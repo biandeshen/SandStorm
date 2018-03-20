@@ -15,6 +15,15 @@ package top.sandstorm.common.rest;
  * @author fanjiangpan
  * @since 1.0.0
  */
-public class ForbidException {
+public class ForbidException extends RuntimeException {
+    public ForbidException() {
+    }
 
+    public ForbidException(String message) {
+        super(message);
+    }
+
+    public ForbidException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }

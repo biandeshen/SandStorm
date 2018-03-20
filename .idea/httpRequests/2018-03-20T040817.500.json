@@ -1,0 +1,8 @@
+{
+  "timestamp": 1521533297978,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.springframework.jdbc.UncategorizedSQLException",
+  "message": "\r\n### Error updating database.  Cause: java.sql.SQLException: Can't update table 'rbac_account' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.\r\n### The error may involve top.biandeshen.sandstorm.repository.AccountMapper.insertSelective-Inline\r\n### The error occurred while setting parameters\r\n### SQL: INSERT INTO rbac_account  ( id,account,password ) VALUES( ?,?,? )\r\n### Cause: java.sql.SQLException: Can't update table 'rbac_account' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.\n; uncategorized SQLException for SQL []; SQL state [HY000]; error code [1442]; Can't update table 'rbac_account' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.; nested exception is java.sql.SQLException: Can't update table 'rbac_account' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.",
+  "path": "/rbac/account"
+}

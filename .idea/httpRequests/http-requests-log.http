@@ -1,0 +1,384 @@
+POST http://localhost:11118/rbac/account?account=55555&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T041257.200.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=55555&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T041239.500.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=55555&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T040817.500.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=55555&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T040725.500.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=55555&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T034221.200.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=55555&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T034028.500.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=33333&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T032844.200.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=33333&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:11118/rbac/account?account=22222&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T032620.200.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=11111&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T032545.500.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=11111&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T030529.200.json
+
+###
+
+POST http://localhost:11118/rbac/account?account=11111&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-20T024144.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T024154.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T021035.200.json
+
+###
+
+POST http://localhost:11118/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:11118/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:11118/swagger-ui.html?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:11118/swagger-ui.html?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T114209.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113906.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113905.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113904.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113903-1.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113903.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113901.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113719.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113408-2.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113408-1.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113408.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113405.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T113403.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T112549.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T105052.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T105045.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T104354.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102825.200.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102610.400.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102609.400.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102608.400.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102554.400.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102531.400.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102351.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102303.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102229.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T102133.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-16T101900.500.json
+
+###
+
+POST http://localhost:11118/rbac/account/login?account=admin@163.com&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-15T092748.500.json
+
+###
+

@@ -1,0 +1,8 @@
+{
+  "timestamp": 1521182514517,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "top.sandstorm.common.rest.ServiceException",
+  "message": "No message available",
+  "path": "/rbac/account/login"
+}

@@ -6,7 +6,8 @@
  * History:
  * <author>          <time>          <version>
  * fanjiangpan           2018/3/15           版本号
- */
+ *//*
+
 package top.biandeshen.sandstorm.shiro;
 
 import org.apache.shiro.authc.AuthenticationException;
@@ -28,12 +29,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+*/
 /**
  * 〈为每次访问添加签名Sign〉
  *
  * @author fanjiangpan
  * @since 1.0.0
- */
+ *//*
+
 public class AddTokenFilter extends AuthenticatingFilter {
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
@@ -88,3 +91,4 @@ public class AddTokenFilter extends AuthenticatingFilter {
         return super.onLoginFailure(token, e, request, response);
     }
 }
+*/

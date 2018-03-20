@@ -5,6 +5,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.apache.ibatis.exceptions.TooManyResultsException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Condition;
@@ -101,6 +102,10 @@ public abstract class AbstractService<T> implements Service<T> {
 
     @Override
     public PageInfo findAll(Integer pageNumber, Integer pageSize) {
+        if (pageNumber == null || pageSize == null){
+            pageNumber = 0;
+            pageSize = 0;
+        }
         return PageHelper.startPage(pageNumber, pageSize).doSelectPageInfo(new ISelect() {
             @Override
             public void doSelect() {

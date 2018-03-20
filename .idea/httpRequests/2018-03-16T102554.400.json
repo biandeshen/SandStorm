@@ -1,0 +1,8 @@
+{
+  "timestamp": 1521167154002,
+  "status": 400,
+  "error": "Bad Request",
+  "exception": "org.springframework.web.bind.UnsatisfiedServletRequestParameterException",
+  "message": "Parameter conditions \"authorization\" not met for actual request parameters: account={admin@163.com}, password={admin}",
+  "path": "/rbac/account/login"
+}

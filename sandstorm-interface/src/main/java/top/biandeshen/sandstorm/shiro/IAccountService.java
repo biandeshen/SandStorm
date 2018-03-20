@@ -1,5 +1,7 @@
 package top.biandeshen.sandstorm.shiro;
 
+import top.biandeshen.sandstorm.entity.Menu;
+
 import java.util.Set;
 
 /**
@@ -14,7 +16,7 @@ public interface IAccountService {
    */
   String findTokenByUserId(String userid);
 
-  Set<String> findPermissionsById(String userId);
+  Set<Menu> findPermissionsById(String userId);
 
   String findPasswd(String account);
 }

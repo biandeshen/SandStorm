@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.biandeshen.sandstorm.repository.ArticleMapper">
+  <resultMap id="BaseResultMap" type="top.biandeshen.sandstorm.entity.Article">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="audit_flag" jdbcType="TINYINT" property="auditFlag" />
+    <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate" />
+    <result column="delete_flag" jdbcType="BIT" property="deleteFlag" />
+    <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified" />
+    <result column="cover_image_url" jdbcType="VARCHAR" property="coverImageUrl" />
+    <result column="href" jdbcType="VARCHAR" property="href" />
+    <result column="order_no" jdbcType="INTEGER" property="orderNo" />
+    <result column="publisher" jdbcType="VARCHAR" property="publisher" />
+    <result column="source_from" jdbcType="VARCHAR" property="sourceFrom" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="column_info_id" jdbcType="INTEGER" property="columnInfoId" />
+    <result column="is_audit" jdbcType="BIT" property="isAudit" />
+    <result column="is_top" jdbcType="BIT" property="isTop" />
+    <result column="view_count" jdbcType="INTEGER" property="viewCount" />
+    <result column="root_colunm_info_id" jdbcType="INTEGER" property="rootColunmInfoId" />
+    <result column="type" jdbcType="BIT" property="type" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+</mapper>
