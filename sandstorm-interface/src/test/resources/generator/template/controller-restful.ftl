@@ -13,6 +13,7 @@ import java.util.List;
 /**
 * Created by ${author} on ${date}.
 */
+@CrossOrigin(origins = "*", maxAge = 3600,methods={RequestMethod.GET,RequestMethod.POST,RequestMethod.DELETE,RequestMethod.PUT})
 @RestController
 @RequestMapping("${baseRequestMapping}")
 public class ${modelNameUpperCamel}API {

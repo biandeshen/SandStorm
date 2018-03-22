@@ -6,6 +6,7 @@ import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
+import org.apache.shiro.util.ThreadContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import top.biandeshen.sandstorm.config.SysConst;
@@ -28,6 +29,7 @@ import java.util.UUID;
 /**
  * Created by fanjiangpan on 2018/02/27.
  */
+@CrossOrigin(origins = "*", maxAge = 3600, methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT})
 @RestController
 @RequestMapping("/rbac/account")
 public class AccountAPI {
@@ -93,7 +95,6 @@ public class AccountAPI {
                 tokenManager.createToken(String.valueOf(userid), serverToken);
                 resultMap.put("userid", userid);
                 resultMap.put("token", serverToken);
-                Constants.USER_ID_TMP = userid;
                 return ResultGenerator.genSuccessResult(resultMap);
             } catch (AuthenticationException e) { // 失败
                 return ResultGenerator.genFailResult("登录失败");
@@ -107,9 +108,11 @@ public class AccountAPI {
         /*数据库中存储的是md5+盐加密后的密码，因此这里要把加密后的密码传入*/
         final String md5Password = MD5Util.md5(password, SysConst.SALT);
         AuthenticationToken token = new UsernamePasswordToken(account.getAccount(), md5Password);
-        Subject currentSubject = SecurityUtils.getSubject();
         // 这句话触发框架去访问Realm的doGetAuthenticationInfo
+        Subject currentSubject = SecurityUtils.getSubject();
         currentSubject.login(token);
+        ThreadContext.bind(SecurityUtils.getSubject());
+        System.out.println(currentSubject.isAuthenticated());
         String serverToken = UUID.randomUUID().toString().replaceAll("-", "");
         return serverToken;
     }
@@ -133,7 +136,7 @@ public class AccountAPI {
     @ResponseStatus(value = HttpStatus.OK)
     public Result logout(Account account) {
         //TODO 注销有问题
-        Account account1 = accountService.findBy("account",account.getAccount());
+        Account account1 = accountService.findBy("account", account.getAccount());
         tokenManager.deleteToken(String.valueOf(account1.getId()));
         return ResultGenerator.genSuccessResult("注销成功！");
     }

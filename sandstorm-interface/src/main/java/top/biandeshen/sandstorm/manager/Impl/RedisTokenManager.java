@@ -81,13 +81,12 @@ public class RedisTokenManager implements TokenManager {
         if (model == null) {
             return false;
         }
-//        String token = (String) redis.boundValueOps(model.getUserId()).get();
         String token = redis.boundValueOps(model.getUserId()).get();
         if (token == null || !token.equals(model.getToken())) {
             return false;
         }
         //如果验证成功，说明此用户进行了一次有效操作，延长token的过期时间
-        redis.boundValueOps(model.getUserId()).expire(Constants.TOKEN_EXPIRES_HOUR, TimeUnit.HOURS);
+        redis.boundValueOps(model.getUserId()).expire(Constants.TOKEN_EXPIRES_HOUR, TimeUnit.MINUTES);
         return true;
     }
 

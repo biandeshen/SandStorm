@@ -13,6 +13,7 @@ import java.util.List;
 /**
 * Created by fanjiangpan on 2018/03/19.
 */
+@CrossOrigin(origins = "*", maxAge = 3600,methods={RequestMethod.GET,RequestMethod.POST,RequestMethod.DELETE,RequestMethod.PUT})
 @RestController
 @RequestMapping("/rbac/user/profile")
 public class UserProfileAPI {

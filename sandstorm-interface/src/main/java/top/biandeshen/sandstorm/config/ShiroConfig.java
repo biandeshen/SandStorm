@@ -19,6 +19,7 @@ import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSource
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.subject.SubjectContext;
+import org.apache.shiro.util.ThreadContext;
 import org.apache.shiro.web.filter.authc.AnonymousFilter;
 import org.apache.shiro.web.filter.session.NoSessionCreationFilter;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
@@ -32,12 +33,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import top.biandeshen.sandstorm.entity.Menu;
+import top.biandeshen.sandstorm.manager.StatelessSessionManager;
 import top.biandeshen.sandstorm.manager.TokenManager;
 import top.biandeshen.sandstorm.service.AccountService;
-import top.biandeshen.sandstorm.shiro.Constants;
-import top.biandeshen.sandstorm.shiro.IAccountService;
-import top.biandeshen.sandstorm.shiro.ShiroRestRealm;
-import top.biandeshen.sandstorm.shiro.StatelessAuthcFilter;
+import top.biandeshen.sandstorm.shiro.*;
 import top.sandstorm.common.commons.Exceptions;
 
 import javax.servlet.Filter;
@@ -55,16 +54,22 @@ import java.util.*;
 @Configuration
 public class ShiroConfig {
 
+
+
+
     /**
      * <bean id="shiroFilter" class="ShiroFilterFactoryBean" />
      * 总过滤器
      *
      * @param securityManager 依赖的安全管理器
-     * @param authcFilter     自定义权限过滤器
+//     * @param authcFilter     自定义权限过滤器
      */
+//    @Qualifier("authcFilter")
+//    @Autowired
+//    StatelessAuthcFilter authcFilter;
     @Bean
     @Autowired
-    public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager, StatelessAuthcFilter authcFilter/*, AddTokenFilter addTokenFilter*/) throws IOException {
+    public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager/*, StatelessAuthcFilter authcFilter*//*, AddTokenFilter addTokenFilter*/) throws IOException {
         ShiroFilterFactoryBean bean = new ShiroFilterFactoryBean();
         bean.setSecurityManager(securityManager);
 
@@ -73,12 +78,14 @@ public class ShiroConfig {
         /* 注册实际的拦截器 */
         Map<String, Filter> filters = bean.getFilters();
         //自定义的无状态权限验证过滤器
-        filters.put("stateLessAuthcFilter", authcFilter);
+        filters.put("stateLessAuthcFilter", statelessAuthcFilter());
         // shiro提供的不做任何处理的过滤器
         filters.put("anon", new AnonymousFilter());
 //        filters.put("addToken",/* new AddTokenFilter() */addTokenFilter);
         // shiro提供的过滤器
         filters.put("noSessionCreation", new NoSessionCreationFilter());
+        // 跨域Cros过滤器
+//        filters.put("crosFilter",new CrosFilter());
 
         /* 登录跳转链接 */
         bean.setLoginUrl("/rbac/account/login");
@@ -128,11 +135,18 @@ public class ShiroConfig {
 //        return addTokenFilter;
 //    }
 
+
+
+//    @Bean("authcFilter")
+//    public StatelessAuthcFilter authFilter(AccountService accountService) {
+//        StatelessAuthcFilter authcFilter = new StatelessAuthcFilter();
+//        authcFilter.setAccountService(accountService);
+//        return authcFilter;
+//    }
+
     @Bean
-    public StatelessAuthcFilter authFilter(AccountService accountService) {
-        StatelessAuthcFilter authcFilter = new StatelessAuthcFilter();
-        authcFilter.setAccountService(accountService);
-        return authcFilter;
+    public StatelessAuthcFilter statelessAuthcFilter() {
+        return new StatelessAuthcFilter();
     }
 
     @Bean
@@ -140,6 +154,7 @@ public class ShiroConfig {
     public DefaultWebSecurityManager securityManager(Realm realm) {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         securityManager.setRealm(realm);
+
 
         final DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
         sessionManager.setSessionIdCookieEnabled(false);
@@ -162,6 +177,7 @@ public class ShiroConfig {
             }
         });
         securityManager.setSubjectDAO(subjectDAO);
+
         SecurityUtils.setSecurityManager(securityManager);
 
         return securityManager;

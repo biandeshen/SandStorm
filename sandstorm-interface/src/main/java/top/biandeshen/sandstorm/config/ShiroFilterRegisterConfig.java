@@ -13,6 +13,7 @@ package top.biandeshen.sandstorm.config;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import top.biandeshen.sandstorm.service.AccountService;
 import top.biandeshen.sandstorm.shiro.StatelessAuthcFilter;
 
 /**
